@@ -17,6 +17,10 @@ export type Position = {
   x: 0 | 1 | 2
   y: 0 | 1 | 2
 }
+export type PositionUseless = {
+  x: 0 | 1 | 2
+  y: 0 | 1 | 2
+}
 
 export function generateEmptyBoard(): Board {
   return [
